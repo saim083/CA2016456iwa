@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>    <!--Using XML file https://github.com/mikhail-cct/CA1-In-class-Demo with Changes in menu-->
+<KFCmenu>
+  <section name="Snacks and Slides">     <!--Section Names-->
+    <entree>                             <!--These are entrees we do  in menu-->
+      <price>4.60</price>                
+      <item>KFC Garlic Bread</item>     <!--These are items name used is menu,with prices -->
+      <price>4.60</price>
+    </entree>
+    <entree>
+      <item>KFC Curly Fries</item>
+      <price>6.00</price>
+    </entree>
+    <entree vegetarian="true">          <!--Highlishts vegeterian items in menu with green colour-->
+      <item>Corn Cob</item>
+      <price>3.00</price>
+    </entree>
+  <entree vegetarian="true">
+      <item>Green Salad</item>
+      <price>7.00</price>
+    </entree>
+  </section>
+  <section name="Box Meals">
+    <entree>
+      <item>Spice Box</item>
+      <price>5.00</price>
+    </entree>
+    <entree>
+      <item>Kids Meal</item>
+      <price>8.00</price>
+    </entree>
+   <entree vegetarian="true">
+      <item>Veggie Meal</item>
+      <price>6.99</price>
+    </entree>
+    <entree >
+      <item>Fish Meal</item>
+      <price>5.25</price>
+    </entree>
+  </section>
+  <section name="Burgers">
+    <entree>
+      <item>Mighty Zinger</item>
+      <price>5.50</price>
+    </entree>
+    <entree>
+      <item>Chicken Burger</item>
+      <price>6.00</price>
+    </entree>
+    <entree vegetarian="true">
+      <item>Veggie Burger</item>
+      <price>7.39</price>
+    </entree>
+     <entree vegetarian="true">
+      <item>Veggie Wrap</item>
+      <price>5.30</price>
+    </entree>
+  </section>
+  <section name="Drinks">
+    <entree>
+      <item>Coke</item>
+      <price>2.00</price>
+    </entree>
+    <entree>
+      <item>Water Bottle</item>
+      <price>3.25</price>
+    </entree>
+    <entree >
+      <item>Cofee</item>
+      <price>3.00</price>
+    </entree>
+  </section>
+</KFCmenu>
+
+
+
