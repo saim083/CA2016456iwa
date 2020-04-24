@@ -1,0 +1,24 @@
+{
+  "name": "ca2016456iwa",
+  "version": "1.0.0",
+  "description": "CA1 ASSIGMENT 2016456",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saim083/CA2016456iwa.git"
+  },
+  "author": "Saim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saim083/CA2016456iwa/issues"
+  },
+  "homepage": "https://github.com/saim083/CA2016456iwa#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "xml2js": "^0.4.23",
+    "xslt-processor": "^0.11.5"
+  }
+}
