@@ -101,7 +101,7 @@ router.post('/post/delete', function(req, res) {
 });
 
 //This is where we as the server to be listening to user with a specified IP and Port
-server.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function() {
+server.listen(process.env.PORT || 3000, function() {
   var addr = server.address();
   console.log("Server listening at", addr.address + ":" + addr.port);
 });
