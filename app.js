@@ -53,7 +53,6 @@ router.get('/get/html', function(req, res) {
 
 });
 
-// POST request to add to JSON & XML files
 router.post('/post/json', function(req, res) {
 
   // Function to read in a JSON file, add to it & convert to XML
