@@ -1,10 +1,10 @@
 {
-  "name": "ca2016456iwa",
+  "name": "test",
   "version": "1.0.0",
-  "description": "CA1 ASSIGMENT 2016456",
+  "description": "CA2 ASSIGMENT 2016456",
   "main": "app.js",
   "scripts": {
-    "start":"node app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,8 +18,23 @@
   },
   "homepage": "https://github.com/saim083/CA2016456iwa#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
+    "express-handlebars": "^4.0.3",
+    "fs": "0.0.1-security",
+    "heroku": "^7.39.5",
+    "http": "0.0.1-security",
+    "mongoose": "^5.9.10",
+    "path": "^0.12.7",
     "xml2js": "^0.4.23",
     "xslt-processor": "^0.11.5"
-  }
+  },
+  "devDependencies": {},
+  "keywords": [
+    "Hosting",
+    "kfc",
+    "app",
+    "on",
+    "Heroku"
+  ]
 }
