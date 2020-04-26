@@ -18,7 +18,8 @@ app.listen(port, function(err){
 });
 
 mongoose.connect('mongodb://localhost/test');
-mongoose.connection.on('error', (err) => { 
+mongoose.connection.on('error', (
+    err) => { 
     console.log('Mongodb Error: ', err); 
     process.exit();
 });
